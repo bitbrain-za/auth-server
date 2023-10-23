@@ -2,6 +2,12 @@
 name = "auth-service"
 version = "0.1.0"
 edition = "2021"
+authors = ["Philip Barlow"]
+description = "Service to authenticate for an house code challenge server"
+license = "MIT"
+repository = "https://github.com/bitbrain-za/auth-service"
+homepage = "https://github.com/bitbrain-za/auth-service"
+readme = "README.md"
 
 [dependencies]
 argon2 = "0.5.0"
