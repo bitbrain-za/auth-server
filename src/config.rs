@@ -17,7 +17,6 @@ impl Config {
         let jwt_expires_in = option_envc!("JWT_EXPIRED_IN").unwrap().into();
         let jwt_maxage = option_envc!("JWT_MAXAGE").unwrap();
 
-        let db_url = format!("{}/{}", db_url, "code_challenge");
         Config {
             db_password,
             db_url,
